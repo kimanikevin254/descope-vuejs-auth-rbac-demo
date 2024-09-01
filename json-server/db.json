@@ -1,0 +1,119 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Engineer",
+      "company": "Tech Innovations Inc.",
+      "location": "San Francisco, CA",
+      "salaryRange": "$100,000 - $130,000",
+      "jobType": "Full-time",
+      "description": "We are looking for a skilled Software Engineer to develop scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle.",
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with front-end developers",
+        "Write effective APIs",
+        "Test and deploy applications"
+      ],
+      "qualifications": [
+        "Bachelor’s degree in Computer Science or related field",
+        "3+ years of experience in software development",
+        "Proficient in JavaScript and Python",
+        "Experience with React and Node.js"
+      ],
+      "benefits": [
+        "Health insurance",
+        "401(k) with company match",
+        "Paid time off",
+        "Remote work options"
+      ],
+      "postedDate": "2024-08-30",
+      "published": true
+    },
+    {
+      "id": "2",
+      "title": "Product Manager",
+      "company": "Creative Solutions Ltd.",
+      "location": "Remote",
+      "salaryRange": "$90,000 - $110,000",
+      "jobType": "Contract",
+      "description": "As a Product Manager, you will work closely with our product team to design, develop, and implement new features for our SaaS platform.",
+      "responsibilities": [
+        "Define product roadmap and strategy",
+        "Collaborate with engineering and design teams",
+        "Prioritize features and tasks",
+        "Analyze user feedback and product data"
+      ],
+      "qualifications": [
+        "5+ years of experience in product management",
+        "Strong understanding of SaaS products",
+        "Experience with Agile methodologies",
+        "Excellent communication skills"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Health insurance",
+        "Opportunity to work with a dynamic team"
+      ],
+      "postedDate": "2024-08-28",
+      "published": false
+    },
+    {
+      "id": "3",
+      "title": "UX Designer",
+      "company": "NextGen Studios",
+      "location": "New York, NY",
+      "salaryRange": "$70,000 - $90,000",
+      "jobType": "Full-time",
+      "description": "We are seeking a talented UX Designer to join our creative team. You will be responsible for designing user-centered products and experiences.",
+      "responsibilities": [
+        "Create wireframes, prototypes, and user flows",
+        "Conduct user research and testing",
+        "Collaborate with product and development teams",
+        "Ensure designs meet business and user needs"
+      ],
+      "qualifications": [
+        "Bachelor’s degree in Design or related field",
+        "2+ years of experience in UX design",
+        "Proficiency in design tools like Figma and Sketch",
+        "Strong portfolio showcasing UX work"
+      ],
+      "benefits": [
+        "Health and dental insurance",
+        "Paid vacation",
+        "Commuter benefits",
+        "Gym membership discounts"
+      ],
+      "postedDate": "2024-08-25",
+      "published": true
+    },
+    {
+      "id": "4",
+      "title": "Data Scientist",
+      "company": "DataCorp Analytics",
+      "location": "Austin, TX",
+      "salaryRange": "$120,000 - $150,000",
+      "jobType": "Full-time",
+      "description": "We are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company.",
+      "responsibilities": [
+        "Analyze large datasets to identify trends and patterns",
+        "Build predictive models",
+        "Collaborate with engineering and product teams",
+        "Communicate findings to stakeholders"
+      ],
+      "qualifications": [
+        "Master’s degree in Data Science or related field",
+        "4+ years of experience in data science",
+        "Strong knowledge of statistical methods",
+        "Experience with Python, R, and SQL"
+      ],
+      "benefits": [
+        "Health, dental, and vision insurance",
+        "Stock options",
+        "Flexible working hours",
+        "Professional development opportunities"
+      ],
+      "postedDate": "2024-08-20",
+      "published": false
+    }
+  ]
+}
