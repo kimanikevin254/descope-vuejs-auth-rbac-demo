@@ -12,6 +12,7 @@
     "server": "json-server --port 3000 json-server/db.json"
   },
   "dependencies": {
+    "@descope/vue-sdk": "^2.0.29",
     "axios": "^1.7.7",
     "json-server": "^1.0.0-beta.2",
     "vue": "^3.4.29",

@@ -1,11 +1,16 @@
-import './assets/main.css'
+import "./assets/main.css";
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import descope from "@descope/vue-sdk";
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(router)
+app.use(descope, {
+    projectId: import.meta.env.VITE_DESCOPE_PROJECT_ID,
+});
 
-app.mount('#app')
+app.use(router);
+
+app.mount("#app");

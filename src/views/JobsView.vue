@@ -2,8 +2,10 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
+import { useUser } from "@descope/vue-sdk";
 
 const router = useRouter()
+const { user } = useUser();
 
 const jobs = ref([])
 const isLoading = ref(true)
@@ -37,10 +39,11 @@ const viewJobDetails = (jobId) => {
     <div class="flex items-center justify-between mb-10">
       <h1 class="text-4xl font-bold text-gray-900">Available Jobs</h1>
       <RouterLink
-        to="/admin"
-        class="inline-block px-6 py-2 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-500 transition duration-300 ease-in-out"
+          v-if="user?.roleNames?.includes('admin')"
+          to="/admin"
+          class="inline-block px-6 py-2 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-500 transition duration-300 ease-in-out"
       >
-        Go to Admin Dashboard
+          Go to Admin Dashboard
       </RouterLink>
     </div>
     <div v-if="isLoading" class="text-center">
