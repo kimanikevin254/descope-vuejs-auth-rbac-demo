@@ -64,7 +64,7 @@ To run this project locally, you need:
 1. Clone the application:
 
    ```bash
-   git clone --single-branch -b starter-template https://github.com/kimanikevin254/descope-vuejs-auth-rbac-demo.git
+   git clone --single-branch -b full-project https://github.com/kimanikevin254/descope-vuejs-auth-rbac-demo.git
    ```
 
 2. `cd` into the application folder and install the dependencies:
